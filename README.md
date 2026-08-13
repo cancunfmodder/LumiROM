@@ -39,6 +39,7 @@ Refer to [changelogs](https://github.com/Luminous418/LumiROM/blob/OneUI8.5/chang
 | Samsung Galaxy A22 | SM-A225F |
 | Samsung Galaxy A22 5G | SM-A226B |
 | Samsung Galaxy A32 | SM-A325F |
+| Samsung Galaxy A41 | SM-A415F |
 | Samsung Galaxy A32 | SM-A325M |
 | Samsung Galaxy F22 | SM-E225F |
 | Samsung Galaxy M32 | SM-M325F |
