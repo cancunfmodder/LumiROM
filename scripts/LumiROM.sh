@@ -702,7 +702,7 @@ APPLY_STOCK_CONFIG() {
 
 	# Replace Stock Files.
 	rm -rf $EXTRACTED_FIRM_DIR/product/overlay/framework-res*auto_generated_rro_product.apk
-    cp -af "$DEVICES_DIR/$STOCK_DEVICE/Stock/." "$EXTRACTED_FIRM_DIR/"
+    cp -af "$DEVICES_DIR/$STOCK_DEVICE/stock/." "$EXTRACTED_FIRM_DIR/"
 }
 
 
