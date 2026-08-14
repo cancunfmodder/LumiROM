@@ -143,7 +143,7 @@ DOWNLOAD_FIRMWARE_LUMI() {
     rm -rf "$DOWN_DIR"
     mkdir -p "$DOWN_DIR"
 
-    if [[ "$STOCK_DEVICE" == "SM-A325F" || "$STOCK_DEVICE" == "SM-A325M" || "$STOCK_DEVICE" == "SM-M325F" ]]; then
+    if [[ "$STOCK_DEVICE" == "SM-A325F" || "$STOCK_DEVICE" == "SM-A325M" || "$STOCK_DEVICE" == "SM-A415F" ]]; then
         export TARGET_DEVICE="SM-A346B"
         echo "${YELLOW}Downloading firmware for${RESET} ${TARGET_DEVICE}"
         aria2c -x 16 -d "${DOWN_DIR}/${TARGET_DEVICE}" -o "${TARGET_DEVICE}.zip" --allow-overwrite=true --auto-file-renaming=false --console-log-level=error "https://huggingface.co/buckets/LuminousJD418/LumiROM/resolve/OneUI8.5/FW/SM-A346B/SM-A346B.zip?download=true" || return 1
